@@ -1,3 +1,29 @@
 body {
-    color: purple;
+    background-color: #DCEAD6;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #424242;
+    line-height: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 15px;
+    color: #424242;
+}
+
+/*how do I change the spacing of the author and date with the body text? as well as how far the text spans across the page?*/
+
+p {
+    text-align: left;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: .2px;
+    color: #424242;
 }
