@@ -1,30 +1,31 @@
 body {
-    background-color: #DCEAD6;
+    background-color: #DCE6D5;
 }
+
 
 h1 {
     text-align: center;
     font-size: 45px;
     font-weight: 600;
     font-family: 'Libre Baskerville', serif;
-    color: #424242;
-    line-height: 30px;
+    color: #223809;
+    line-height: 20px;
     letter-spacing: .3px;
 }
 
 h2 {
     text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 17px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 15px;
     letter-spacing: .3px;
     font-family: 'Libre Baskerville', serif;
-    color: #424242;
+    color: #223809;
 }
 
 p {
     text-align: left;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 35px;
     letter-spacing: .2px;
     font-weight: 500;
@@ -34,11 +35,11 @@ p {
 
 blockquote {
     font-size: 30px;
-    line-height: 35px;
+    line-height: 40px;
     letter-spacing: .3px;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
-    color: #424242;
+    color: #223809;
 }
 
 * {
@@ -46,10 +47,24 @@ blockquote {
 }
 
 .body-text {
-    background-color: seashell;
+    background-color: #F9F9F4;
     height: 2000px;
-    width: 900px;
+    width: 1000px;
     padding: 20px;
     margin: 40px auto;
+    border: 5px solid #223809;
     max-width: 800px;
+}
+
+.date {
+    font-size: 18px;
+    line-height: 10px;
+    font-weight: 100px;
+    color: #1A2B07;
+}
+
+.star {
+    font-size: 55px;
+    text-align: center;
+    color: #223809;
 }
