@@ -34,12 +34,12 @@ p {
 }
 
 blockquote {
-    font-size: 30px;
+    color: #223809;
+    font-family: 'Libre Baskerville', serif;
     line-height: 40px;
+    font-size: 30px;
     letter-spacing: .3px;
     text-align: center;
-    font-family: 'Libre Baskerville', serif;
-    color: #223809;
 }
 
 * {
