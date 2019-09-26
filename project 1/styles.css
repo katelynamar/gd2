@@ -4,33 +4,33 @@ body {
 
 
 h1 {
-    text-align: center;
+    color: #223809;
+    font-family: 'Libre Baskerville', serif;
     font-size: 45px;
     font-weight: 600;
-    font-family: 'Libre Baskerville', serif;
-    color: #223809;
     line-height: 20px;
     letter-spacing: .3px;
+    text-align: center;
 }
 
 h2 {
-    text-align: center;
+    color: #223809;
+    font-family: 'Libre Baskerville', serif;
     font-size: 25px;
     font-weight: 400;
     line-height: 15px;
     letter-spacing: .3px;
-    font-family: 'Libre Baskerville', serif;
-    color: #223809;
+    text-align: center;
 }
 
 p {
-    text-align: left;
-    font-size: 15px;
-    line-height: 35px;
-    letter-spacing: .2px;
-    font-weight: 500;
-    font-family: 'Libre Baskerville', serif;
     color: #424242;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 35px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    text-align: left;
 }
 
 blockquote {
@@ -48,23 +48,23 @@ blockquote {
 
 .body-text {
     background-color: #F9F9F4;
-    height: 2000px;
-    width: 1000px;
-    padding: 20px;
-    margin: 40px auto;
     border: 5px solid #223809;
+    height: 2000px;
+    margin: 40px auto;
     max-width: 800px;
+    padding: 20px;
+    width: 1000px;
 }
 
 .date {
-    font-size: 18px;
-    line-height: 10px;
-    font-weight: 100px;
     color: #1A2B07;
+    font-size: 18px;
+    font-weight: 100px;
+    line-height: 10px;
 }
 
 .star {
+    color: #223809;
     font-size: 55px;
     text-align: center;
-    color: #223809;
 }
