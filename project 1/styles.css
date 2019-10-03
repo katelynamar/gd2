@@ -1,0 +1,70 @@
+body {
+    background-color: #DCE6D5;
+}
+
+
+h1 {
+    color: #223809;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: .3px;
+    text-align: center;
+}
+
+h2 {
+    color: #223809;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: .3px;
+    text-align: center;
+}
+
+p {
+    color: #424242;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 35px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    text-align: left;
+}
+
+blockquote {
+    color: #223809;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 40px;
+    font-size: 30px;
+    letter-spacing: .3px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.body-text {
+    background-color: #F9F9F4;
+    border: 5px solid #223809;
+    height: 2000px;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    width: 1000px;
+}
+
+.date {
+    color: #1A2B07;
+    font-size: 18px;
+    font-weight: 100px;
+    line-height: 10px;
+}
+
+.star {
+    color: #223809;
+    font-size: 55px;
+    text-align: center;
+}
