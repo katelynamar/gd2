@@ -3,21 +3,21 @@
 }
 
 body {
-    background-color: #191919;
+    background-color: #111111;
     color: e0e0e0;
     font-family: Rubik, Sans-serif;
     font-weight: 400;
 }
 
 .info {
-    background-color: #303030;
+    background-color: #2b2b2b;
     color: #e0e0e0;
     max-width: 500px;
     max-height: 350px;
     padding: 15px;
     position: relative;
     top: 30px;
-    left: 200px;
+    left: 425px;
 
 }
 
@@ -25,7 +25,7 @@ img {
     max-width: 500px;
     position: relative;
     top: 40px;
-    left: 200px;
+    left: 425px;
 }
 
 h2 {
@@ -45,8 +45,8 @@ h2 {
     max-width: 130px;
     padding: 10px;
     position: relative;
-    bottom: 190px;
-    left: 10px;
+    bottom: 80px;
+    left: 5px;
     text-align: right;
     text-decoration: none;
 }
@@ -56,6 +56,57 @@ p {
     line-height: 25px;
     max-width: 950px;
     position: relative;
-    bottom: 180px;
+    bottom: 60px;
+    left: 5px;
 
+}
+
+svg {
+    height: 55px;
+    width: 50px;
+    position: relative;
+    left: 425px;
+    bottom: 30px;
+}
+
+path {
+    fill: #e0e0e0;
+}
+
+svg:hover path {
+    fill: #4c91cd;
+}
+
+.star1 {
+    height: 25px;
+    width: 25px;
+    right: 100px;
+}
+
+.star2 {
+    height: 25px;
+    width: 25px;
+    right: 10px;
+}
+
+.star3 {
+    height: 25px;
+    width: 25px;
+    right: 10px;
+}
+
+.star4 {
+    height: 25px;
+    width: 25px;
+    right: 10px;
+}
+
+.star5 {
+    height: 25px;
+    width: 25px;
+    right: 10px;
+}
+
+.star {
+    color: #e0e0e0;
 }
