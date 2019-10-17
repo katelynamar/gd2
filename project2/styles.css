@@ -3,7 +3,59 @@
 }
 
 body {
-    background-color: ;
-    color: ;
-    font-family: ;
+    background-color: #191919;
+    color: e0e0e0;
+    font-family: Rubik, Sans-serif;
+    font-weight: 400;
+}
+
+.info {
+    background-color: #303030;
+    color: #e0e0e0;
+    max-width: 500px;
+    max-height: 350px;
+    padding: 15px;
+    position: relative;
+    top: 30px;
+    left: 200px;
+
+}
+
+img {
+    max-width: 500px;
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 450;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 25px;
+    text-align: right;
+}
+
+.play {
+    background-color: #4c91cd;
+    color: #e0e0e0;
+    display: block;
+    font-size: 20px;
+    max-width: 130px;
+    padding: 10px;
+    position: relative;
+    bottom: 190px;
+    left: 10px;
+    text-align: right;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 950px;
+    position: relative;
+    bottom: 180px;
+
 }
