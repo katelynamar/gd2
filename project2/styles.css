@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    transition: all 1s;
 }
 
 body {
@@ -51,6 +52,11 @@ h2 {
     text-decoration: none;
 }
 
+.play:hover {
+    background-color: #e0e0e0;
+    color: #4c91cd;
+}
+
 p {
     font-size: 16px;
     line-height: 25px;
@@ -61,7 +67,7 @@ p {
 
 }
 
-svg {
+.bookmark {
     height: 55px;
     width: 50px;
     position: relative;
@@ -77,36 +83,17 @@ svg:hover path {
     fill: #4c91cd;
 }
 
-.star1 {
-    height: 25px;
-    width: 25px;
-    right: 100px;
+.stars {
+    height: 15px;
+    top: 0;
+    right: 0;
 }
 
-.star2 {
-    height: 25px;
-    width: 25px;
-    right: 10px;
+.playbutton {
+    height: 20px;
+    width: 20px;
 }
 
-.star3 {
-    height: 25px;
-    width: 25px;
-    right: 10px;
-}
-
-.star4 {
-    height: 25px;
-    width: 25px;
-    right: 10px;
-}
-
-.star5 {
-    height: 25px;
-    width: 25px;
-    right: 10px;
-}
-
-.star {
-    color: #e0e0e0;
+.playbutton {
+    fill: #e0e0e0;
 }
