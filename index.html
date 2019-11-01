@@ -5,10 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 
 <body>
+
+    <form action="">
+        <label for="real-name">Real Name</label>
+        <input id="real-name" type="text" placeholder="" required>
+
+        <label for="tel-number">Telephone Number</label>
+        <input id="tel-number" type="number" placeholder="" required>
+
+        <input id="email" type="email" placeholder="" required>
+        <label for="email">Email</label>
+
+        <label for="powers">Describe Your Powers</label>
+        <textarea name="" id="powers">Text Here</textarea>
+
+        <label for="speed">Speed</label>
+        <select name="" id="speed">
+            <option value="Testing">Testing A Thing</option>
+            <option value="Another">Another Thing</option>
+        </select>
+
+        <fieldset>
+            <legend>Category</legend>
+
+            <input id="alien" type="checkbox">
+            <label for="alien">Alien</label>
+
+            <input id="cyborg" type="checkbox">
+            <label for="cyborg">Cyborg</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <input name="gender" id="woman" type="radio">
+            <label for="woman">Woman</label>
+
+            <input name="gender" id="man" type="radio">
+            <label for="man">Man</label>
+
+            <input name="gender" id="nonbinary" type="radio">
+            <label for="nonbinary">Non-Binary</label>
+        </fieldset>
+
+
+        <button class="button-reset" type="submit"> Register Now</button>
+
 
 </body>
 
