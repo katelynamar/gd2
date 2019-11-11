@@ -6,55 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=BenchNine:300,400,700|Teko:400,500,600,700&display=swap"
+        rel="stylesheet">
+    <title>Super Hero Registry</title>
 </head>
 
 <body>
+    <h1> SUPER HERO REGISTRY</h1>
+    <h2>With great power there must also comes-great responsibility</h2>
+    <div>
+        <h3>IDENTITY</h3>
+        <form action="">
+            <label for="real-name">Real Name</label>
+            <input id="real-name" type="text" placeholder="" required>
 
-    <form action="">
-        <label for="real-name">Real Name</label>
-        <input id="real-name" type="text" placeholder="" required>
+            <label for="a-name">Alias</label>
+            <input id="alias" type="text" placeholder="" required>
 
-        <label for="tel-number">Telephone Number</label>
-        <input id="tel-number" type="number" placeholder="" required>
+            <input id="email" type="email" placeholder="" required>
+            <label for="email">Email</label>
 
-        <input id="email" type="email" placeholder="" required>
-        <label for="email">Email</label>
+            <label for="powers">Describe Your Powers</label>
+            <textarea name="" id="powers">Text Here</textarea>
 
-        <label for="powers">Describe Your Powers</label>
-        <textarea name="" id="powers">Text Here</textarea>
+            <label for="speed">Speed</label>
+            <select name="" id="speed">
+                <option value="Testing">Testing A Thing</option>
+                <option value="Another">Another Thing</option>
+            </select>
+            <h4>PERSONAL CHARACTERISTICS</h4>
+            <fieldset>
+                <legend>Category</legend>
 
-        <label for="speed">Speed</label>
-        <select name="" id="speed">
-            <option value="Testing">Testing A Thing</option>
-            <option value="Another">Another Thing</option>
-        </select>
+                <input id="alien" type="checkbox">
+                <label for="Alien">Alien</label>
 
-        <fieldset>
-            <legend>Category</legend>
+                <input id="cyborg" type="checkbox">
+                <label for="cyborg">Cyborg</label>
 
-            <input id="alien" type="checkbox">
-            <label for="alien">Alien</label>
+                <input id="experiment" type="checkbox">
+                <label for="experiment">Experiment</label>
 
-            <input id="cyborg" type="checkbox">
-            <label for="cyborg">Cyborg</label>
-        </fieldset>
+                <input id="human" type="checkbox">
+                <label for="human">Human</label>
 
-        <fieldset>
-            <legend>Gender</legend>
-            <input name="gender" id="woman" type="radio">
-            <label for="woman">Woman</label>
+                <input id="inhuman" type="checkbox">
+                <label for="inhuman">Inhuman</label>
 
-            <input name="gender" id="man" type="radio">
-            <label for="man">Man</label>
+                <input id="mutant" type="checkbox">
+                <label for="mutant">Mutant</label>
 
-            <input name="gender" id="nonbinary" type="radio">
-            <label for="nonbinary">Non-Binary</label>
-        </fieldset>
+            </fieldset>
+
+            <fieldset>
+                <legend>Gender</legend>
+                <input name="gender" id="woman" type="radio">
+                <label for="woman">Woman</label>
+
+                <input name="gender" id="man" type="radio">
+                <label for="man">Man</label>
+
+                <input name="gender" id="nonbinary" type="radio">
+                <label for="nonbinary">Non-Binary</label>
+
+                <input name="gender" id="genderqueer" type="radio">
+                <label for="genderqueer">Genderqueer/Genderfluid</label>
+
+                <input name="gender" id="noanswer" type="radio">
+                <label for="noanswer">Prefer not to answer</label>
+
+                <input name="gender" id="selfdescribe" type="radio">
+                <label for="selfdescribe">Prefer to self describe</label>
+            </fieldset>
+        </form>
 
 
         <button class="button-reset" type="submit"> Register Now</button>
-
+    </div>
 
 </body>
 

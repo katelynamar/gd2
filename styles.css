@@ -4,17 +4,43 @@
     box-sizing: border-box;
 }
 
+h1 {
+    color: #00000;
+    font-family: 'Teko', sans-serif;
+    font-size: 48px;
+
+}
+
+h2 {
+    color: #00000;
+    font-family: 'Teko', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+}
+
 body {
-    background-color: var();
-    color: var();
+    background-color: var(#d1d5de);
+    color: var(#eaecf0);
+    font-family: 'BenchNine', sans-serif;
+    font-weight: 22px;
 }
 
 .button-reset {
     background: transparent;
     border: 0;
     cursor: pointer;
-    font-family: inherit;
-    font-size: inherit;
+    font-family: 'Teko', sans-serif;
+    font-size: 32px;
     font-weight: inherit;
     padding: 0;
     text-align: inherit;
@@ -27,8 +53,10 @@ body {
 input,
 select,
 textarea {
+    background-color: #fff;
     font-family: inherit;
     font-size: inherit;
+    display: block;
 }
 
 select {
@@ -62,25 +90,29 @@ input[type="radio"] {
 input[type="radio"]:checked+label,
 input[type="checkbox"]:checked+label {
     color: aqua;
+    line-height: 10px;
 }
 
 input[type="text"]:required:valid,
-input[type="email"]:required:valid,
-input[type="number"]:required:valid {
-    background-color: greenyellow;
+input[type="text"]:required:valid,
+input[type="email"]:required:valid {
+    background-color: #6bf99c;
 }
 
 input[type="text"]:invalid,
 input[type="email"]:invalid,
-input[type="number"]:invalid {
-    background-color: orange;
-}
+input[type="text"]:invalid {}
 
+input[type="text"]:default,
+input[type="email"]:default,
+input[type="text"]:default {
+    background-color: #fff;
+}
 
 input[type="text"]:focus,
 input[type="email"]:focus,
-input[type="number"]:focus {
-    background-color: aqua;
+input[type="text"]:focus {
+    background-color: #fff;
 }
 
 input[type="text"]:invalid {}
@@ -91,4 +123,14 @@ input[type="text"]:not(placeholder-shown) {}
 
 input[type="text"]:not (:placeholder-shown):invalid {
     background-color: orange;
+}
+
+div {
+    background-color: #1e2019;
+    color: #eaecf0;
+    width: 327px;
+    height: auto;
+    margin: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
