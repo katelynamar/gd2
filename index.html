@@ -44,9 +44,9 @@
                 <input id="age" type="number" placeholder="" required>
             </section>
             <fieldset>
-                <legend>Category</legend>
-                <p>Please select as many as apply to your origin and how you gained your powers.</p>
                 <section class="category">
+                    <legend>Category</legend>
+                    <p>Please select as many as apply to your origin and how you gained your powers.</p>
                     <span>
                         <input id="alien" type="checkbox">
                         <label for="Alien">Alien</label>
@@ -80,40 +80,41 @@
                 </section>
 
             </fieldset>
+            <section class="gender">
+                <fieldset>
+                    <legend>Gender</legend>
+                    <span>
+                        <input name="gender" id="woman" type="radio">
+                        <label for="woman">Woman</label>
+                    </span>
 
-            <fieldset>
-                <legend>Gender</legend>
-                <span>
-                    <input name="gender" id="woman" type="radio">
-                    <label for="woman">Woman</label>
-                </span>
+                    <span>
+                        <input name="gender" id="man" type="radio">
+                        <label for="man">Man</label>
+                    </span>
 
-                <span>
-                    <input name="gender" id="man" type="radio">
-                    <label for="man">Man</label>
-                </span>
+                    <span>
+                        <input name="gender" id="nonbinary" type="radio">
+                        <label for="nonbinary">Non-Binary</label>
+                    </span>
 
-                <span>
-                    <input name="gender" id="nonbinary" type="radio">
-                    <label for="nonbinary">Non-Binary</label>
-                </span>
+                    <span>
+                        <input name="gender" id="genderqueer" type="radio">
+                        <label for="genderqueer">Genderqueer/Genderfluid</label>
+                    </span>
 
-                <span>
-                    <input name="gender" id="genderqueer" type="radio">
-                    <label for="genderqueer">Genderqueer/Genderfluid</label>
-                </span>
+                    <span>
+                        <input name="gender" id="noanswer" type="radio">
+                        <label for="noanswer">Prefer not to answer</label>
+                    </span>
 
-                <span>
-                    <input name="gender" id="noanswer" type="radio">
-                    <label for="noanswer">Prefer not to answer</label>
-                </span>
-
-                <span>
-                    <input name="gender" id="selfdescribe" type="radio">
-                    <label for="selfdescribe">Prefer to self describe</label>
-                </span>
-                <textarea name="" id="selfdescribe"></textarea>
-            </fieldset>
+                    <span>
+                        <input name="gender" id="selfdescribe" type="radio">
+                        <label for="selfdescribe">Prefer to self describe</label>
+                    </span>
+                    <textarea name="" id="selfdescribe"></textarea>
+                </fieldset>
+            </section>
 
             <p class="abilities">Powers & Abilities</p>
 
@@ -371,12 +372,12 @@
                 <option value="Beyond">Significantly Beyond Norms</option>
             </select>
 
-            <span>
+            <section class="confirm">
                 <input id="confirm" type="checkbox">
                 <label for="confirm">I confirm the above information represents my current details and is correct to
                     the
                     best of my knowledge.</label>
-            </span>
+            </section>
 
         </form>
 
