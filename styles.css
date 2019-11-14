@@ -57,30 +57,42 @@ body {
     background-color: #d1d5de;
     font-family: 'BenchNine', sans-serif;
     font-weight: 700;
+    max-width: 375px;
 }
 
 .button-reset {
     background: #6bf99c;
-    border: 0;
+    border: 6px;
     cursor: pointer;
     display: block;
     font-family: 'Teko', sans-serif;
     font-size: 32px;
     font-weight: 700;
+    left: 35px;
+    right: 61px;
     height: 87px;
     margin-top: 45px;
+    padding-bottom: 10px;
     padding-left: 21px;
     padding-right: 20px;
     padding-top: 15px;
-    padding-bottom: 10px;
     position: relative;
-    left: 35px;
-    right: 61px;
     text-align: center;
 }
 
 ​ .button-reset[disabled] {
     cursor: default;
+}
+
+.button-reset:hover {
+    background: #fff;
+    border: 6px solid #6bf99c;
+    color: #000;
+    padding-bottom: 1px;
+    padding-left: 12px;
+    padding-right: 11px;
+    padding-top: 9px;
+
 }
 
 input,
@@ -139,6 +151,7 @@ input[type="checkbox"]:focus {
 
 input[type="radio"]:hover,
 input[type="checkbox"]:hover {
+    background-color: #1E2019;
     border: 3px solid #6bf99c;
 }
 
@@ -150,6 +163,7 @@ input[type="radio"] {
 input[type="radio"]:checked+label,
 input[type="checkbox"]:checked+label {
     border-bottom: 4px solid #6bf99c;
+    outline: none;
 }
 
 input[type="radio"]:checked,
@@ -163,14 +177,10 @@ input[type="email"]:required:valid {
     background-color: #6bf99c;
 }
 
-input[type="text"]:invalid,
-input[type="email"]:invalid,
-input[type="text"]:invalid {}
-
 input[type="text"]:default,
 input[type="email"]:default,
 input[type="text"]:default {
-    background-color: #1e2019;
+    background-color: #d1d5de;
 }
 
 input[type="text"]:focus,
@@ -178,6 +188,13 @@ input[type="email"]:focus,
 input[type="text"]:focus {
     background-color: #fff;
 }
+
+input[type="text"]:invalid,
+input[type="email"]:invalid,
+input[type="text"]:invalid {
+    background-color: #C61A3A;
+}
+
 
 input[type="text"]:invalid {}
 
@@ -189,9 +206,19 @@ input[type="text"]:not (:placeholder-shown):invalid {
     background-color: orange;
 }
 
+textarea:focus {
+    border: 3px solid #6bf99c;
+    outline: none;
+}
+
+textarea:default {
+    background-color: #d1d5de;
+}
+
 div {
     background-color: #1e2019;
     color: #eaecf0;
+    min-width: auto;
     width: 327px;
     height: auto;
     margin: 24px;
@@ -268,9 +295,9 @@ p {
 }
 
 .logo {
-    background-color: #d1d5de;
-    height: 239;
-    width: 240;
+    background-color: transparent;
+    height: 239px;
+    width: 240px;
     margin-left: 15px;
     margin-right: 30px;
     padding-bottom: 0;
@@ -289,18 +316,19 @@ p {
 
 .speed {
     border: 0px;
-    height: 150px;
+    height: 100px;
     margin-top: 40px;
-    width: 150px;
+    width: 99px;
     position: relative;
     left: 50px;
 }
 
 .intelligence {
     border: 0px;
-    height: 150px;
+    height: 100px;
+    min-width: auto;
     margin-top: 40px;
-    width: 150px;
+    width: 100px;
     position: relative;
     left: 50px;
 }
@@ -348,4 +376,182 @@ select#intelligence {
 input#confirm {
     margin-right: 20px;
     margin-top: 48px;
+}
+
+@media (min-width: 520px) {
+    .logo {
+        background-color: transparent;
+        height: 239px;
+        width: 240px;
+        margin: 0px;
+        padding: 0;
+        padding-bottom: 0;
+        position: relative;
+        left: 120px;
+        right: 80px;
+    }
+
+    h1 {
+        color: black;
+        font-family: 'Teko', sans-serif;
+        font-size: 48px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        width: 520px;
+        line-height: 45px;
+        text-align: center;
+        position: relative;
+        left: 50px;
+    }
+
+    h2 {
+        color: #163346;
+        font-family: 'Teko', sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        height: 60px;
+        margin-bottom: 57px;
+        margin-top: 20px;
+        max-width: 520px;
+        text-align: center;
+        position: relative;
+        left: 50px;
+    }
+
+    div {
+        background-color: #1e2019;
+        color: #eaecf0;
+        width: 480px;
+        height: auto;
+        margin: auto;
+        padding-bottom: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 15px;
+        position: relative;
+        left: 12px;
+        right: 0px;
+    }
+
+    input {
+        height: 50px;
+        width: 450px;
+        margin-bottom: 15px;
+        margin-top: 12px;
+        margin-right: 0px;
+    }
+
+    input#age {
+        width: 90px;
+        display: block;
+        margin-top: 5px;
+    }
+
+    textarea#selfdescribe {
+        margin-bottom: 40px;
+        width: 450px;
+    }
+
+    textarea#powers {
+        height: 175px;
+        width: 450px;
+    }
+
+    .strength {
+        height: 120px;
+        width: 120px;
+        align-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 37px;
+        margin-bottom: 19px;
+        padding: 0px;
+        position: relative;
+        left: 140px;
+    }
+
+    .speed {
+        border: 0px;
+        height: 150px;
+        margin-bottom: 19px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 40px;
+        width: 150px;
+        position: relative;
+        left: 120px;
+    }
+
+    select#speed {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        font-size: 20px;
+        height: 73px;
+        width: 240px;
+    }
+
+    select#strength {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        display: block;
+        font-size: 20px;
+        height: 73px;
+        left: 100px;
+        right: 44px;
+        width: 240px;
+        text-align: center;
+        position: relative;
+    }
+
+    .intelligence {
+        border: 0px;
+        height: 150px;
+        min-width: auto;
+        margin-bottom: 48px;
+        margin-left: 100px;
+        margin-right: 90px;
+        margin-top: 40px;
+        width: 150px;
+        padding: 0;
+        position: relative;
+        left: 30px;
+        right: 20px;
+    }
+
+    select#intelligence {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        border: 5px;
+        display: block;
+        font-size: 20px;
+        left: 100px;
+        margin-bottom: 104px;
+        right: 44px;
+        height: 73px;
+        width: 240px;
+        position: relative;
+    }
+
+    .button-reset {
+        background: #6bf99c;
+        border: 6px;
+        cursor: pointer;
+        display: block;
+        font-family: 'Teko', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        left: 100px;
+        right: 80px;
+        height: 87px;
+        margin-top: 45px;
+        padding-bottom: 10px;
+        padding-left: 21px;
+        padding-right: 20px;
+        padding-top: 15px;
+        position: relative;
+        text-align: center;
+    }
 }
