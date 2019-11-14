@@ -28,16 +28,20 @@ h2 {
 }
 
 h3 {
+    border-bottom: 4px solid #163346;
     display: block;
     font-family: 'Teko', sans-serif;
     font-size: 40px;
+    height: 50px;
     margin-bottom: 20px;
     margin-top: 0px;
     letter-spacing: 1px;
+    width: 140px;
     text-align: left;
 }
 
 .character {
+    border-bottom: 4px solid #163346;
     color: #eaecf0;
     font-family: 'Teko', sans-serif;
     font-size: 40px;
@@ -46,24 +50,33 @@ h3 {
     line-height: 40px;
     margin-bottom: 25px;
     margin-top: 50px;
+    width: 225px;
 }
 
 body {
     background-color: #d1d5de;
-    color: var();
     font-family: 'BenchNine', sans-serif;
-    font-weight: 22px;
+    font-weight: 700;
 }
 
 .button-reset {
-    background: transparent;
+    background: #6bf99c;
     border: 0;
     cursor: pointer;
+    display: block;
     font-family: 'Teko', sans-serif;
     font-size: 32px;
-    font-weight: inherit;
-    padding: 0;
-    text-align: inherit;
+    font-weight: 700;
+    height: 87px;
+    margin-top: 45px;
+    padding-left: 21px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    left: 35px;
+    right: 61px;
+    text-align: center;
 }
 
 ​ .button-reset[disabled] {
@@ -91,8 +104,21 @@ textarea {
 fieldset {
     border: 0;
     padding: 0px;
-    display: flex;
-    align-items: center;
+}
+
+fieldset label {
+    bottom: 8px;
+    position: relative;
+    bottom: 20px;
+    left: 7px;
+}
+
+fieldset span {
+    display: block;
+}
+
+fieldset+fieldset {
+    margin-top: 34px;
 }
 
 input[type="radio"],
@@ -100,11 +126,22 @@ input[type="checkbox"] {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    border: 3px solid black;
+    background-color: #1e2019;
+    border: 3px solid #d1d5de;
     height: 24px;
     width: 24px;
-    display: flex;
 }
+
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+    border: 3px solid #6bf99c;
+}
+
+input[type="radio"]:hover,
+input[type="checkbox"]:hover {
+    border: 3px solid #6bf99c;
+}
+
 
 input[type="radio"] {
     border-radius: 50%;
@@ -112,7 +149,12 @@ input[type="radio"] {
 
 input[type="radio"]:checked+label,
 input[type="checkbox"]:checked+label {
-    color: aqua;
+    border-bottom: 4px solid #6bf99c;
+}
+
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+    background-color: #6bf99c;
 }
 
 input[type="text"]:required:valid,
@@ -128,7 +170,7 @@ input[type="text"]:invalid {}
 input[type="text"]:default,
 input[type="email"]:default,
 input[type="text"]:default {
-    background-color: #fff;
+    background-color: #1e2019;
 }
 
 input[type="text"]:focus,
@@ -153,10 +195,12 @@ div {
     width: 327px;
     height: auto;
     margin: 24px;
+    padding-bottom: 80px;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 15px;
     position: relative;
+    right: 10px;
 }
 
 label {
@@ -174,6 +218,8 @@ input {
 
 input#age {
     width: 75px;
+    display: block;
+    margin-top: 5px;
 }
 
 textarea#selfdescribe {
@@ -188,11 +234,14 @@ textarea#powers {
 
 
 legend {
+    font-family: 'BenchNine', sans-serif;
     font-size: 22px;
+    font-weight: 700;
 }
 
 p {
     font-size: 20px;
+    font-weight: 400;
     color: #D1D5DE;
     line-height: 22px;
     margin-bottom: 5px;
@@ -200,11 +249,15 @@ p {
 }
 
 .abilities {
+    border-bottom: 4px solid #163346;
     color: #eaecf0;
     font-family: 'Teko', sans-serif;
     font-size: 40px;
+    font-weight: 400px;
+    height: 35px;
     letter-spacing: 1px;
     margin-bottom: 30px;
+    width: 235px;
 }
 
 .rate {
@@ -216,15 +269,83 @@ p {
 
 .logo {
     background-color: #d1d5de;
+    height: 239;
+    width: 240;
+    margin-left: 15px;
+    margin-right: 30px;
+    padding-bottom: 0;
 }
 
 .strength {
-    height: 100px;
-    width: 101px;
+    height: 110px;
+    width: 111px;
     align-content: center;
     margin-top: 37px;
     margin-bottom: 19px;
     padding: 0px;
     position: relative;
-    left: 60px;
+    left: 75px;
+}
+
+.speed {
+    border: 0px;
+    height: 150px;
+    margin-top: 40px;
+    width: 150px;
+    position: relative;
+    left: 50px;
+}
+
+.intelligence {
+    border: 0px;
+    height: 150px;
+    margin-top: 40px;
+    width: 150px;
+    position: relative;
+    left: 50px;
+}
+
+select#strength {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    display: block;
+    font-size: 20px;
+    height: 73px;
+    left: 30px;
+    right: 44px;
+    width: 240px;
+    text-align: center;
+    position: relative;
+}
+
+
+select#speed {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 20px;
+    height: 73px;
+    width: 240px;
+}
+
+select#intelligence {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 5px;
+    display: block;
+    font-size: 20px;
+    left: 30px;
+    margin-bottom: 104px;
+    right: 44px;
+    height: 73px;
+    width: 240px;
+    position: relative;
+}
+
+
+input#confirm {
+    margin-right: 20px;
+    margin-top: 48px;
 }
