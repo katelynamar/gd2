@@ -5,17 +5,25 @@
 }
 
 h1 {
-    color: #0000;
+    color: black;
     font-family: 'Teko', sans-serif;
     font-size: 48px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    max-width: 375px;
+    line-height: 45px;
     text-align: center;
 }
 
 h2 {
-    color: #0000;
+    color: #163346;
     font-family: 'Teko', sans-serif;
     font-size: 26px;
     font-weight: 400;
+    height: 60px;
+    margin-bottom: 57px;
+    margin-top: 20px;
+    max-width: 375px;
     text-align: center;
 }
 
@@ -29,9 +37,10 @@ h3 {
     text-align: left;
 }
 
-h4 {
+.character {
+    color: #eaecf0;
     font-family: 'Teko', sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 300px;
     letter-spacing: 1px;
     line-height: 40px;
@@ -67,7 +76,6 @@ textarea {
     background-color: #fff;
     font-family: inherit;
     font-size: inherit;
-    display: block;
 }
 
 select {
@@ -83,6 +91,8 @@ textarea {
 fieldset {
     border: 0;
     padding: 0px;
+    display: flex;
+    align-items: center;
 }
 
 input[type="radio"],
@@ -93,7 +103,7 @@ input[type="checkbox"] {
     border: 3px solid black;
     height: 24px;
     width: 24px;
-
+    display: flex;
 }
 
 input[type="radio"] {
@@ -143,8 +153,10 @@ div {
     width: 327px;
     height: auto;
     margin: 24px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 15px;
+    position: relative;
 }
 
 label {
@@ -154,8 +166,65 @@ label {
 
 input {
     height: 50px;
-    width: 275px;
+    width: 291px;
     margin-bottom: 15px;
     margin-top: 12px;
     margin-right: 0px;
+}
+
+input#age {
+    width: 75px;
+}
+
+textarea#selfdescribe {
+    margin-bottom: 40px;
+    width: 291px;
+}
+
+textarea#powers {
+    height: 175px;
+    width: 291px;
+}
+
+
+legend {
+    font-size: 22px;
+}
+
+p {
+    font-size: 20px;
+    color: #D1D5DE;
+    line-height: 22px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.abilities {
+    color: #eaecf0;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.rate {
+    color: #eaecf0;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.logo {
+    background-color: #d1d5de;
+}
+
+.strength {
+    height: 100px;
+    width: 101px;
+    align-content: center;
+    margin-top: 37px;
+    margin-bottom: 19px;
+    padding: 0px;
+    position: relative;
+    left: 60px;
 }
