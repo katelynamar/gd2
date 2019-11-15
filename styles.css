@@ -201,11 +201,13 @@ input[type="text"]:focus {
     background-color: #fff;
 }
 
+/*
 input[type="text"]:invalid,
 input[type="email"]:invalid,
 input[type="text"]:invalid {
     background-color: #C61A3A;
 }
+*/
 
 
 input[type="text"]:invalid {}
@@ -304,6 +306,13 @@ p {
     font-size: 22px;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+.svg {
+    background-color: transparent;
+    display: inline-block;
+    right: 45px;
+    padding-bottom: 40px;
 }
 
 .strength {
@@ -456,6 +465,7 @@ input#confirm {
     input {
         height: 50px;
         width: 450px;
+        left: 16px;
         margin-bottom: 15px;
         margin-top: 12px;
         margin-right: 0px;
@@ -870,7 +880,7 @@ input#confirm {
         background-color: transparent;
         height: 239px;
         width: 240px;
-        left: 265px;
+        left: 340px;
         margin: 0px;
         padding: 0;
         padding-bottom: 0;
@@ -883,7 +893,7 @@ input#confirm {
         color: black;
         font-family: 'Teko', sans-serif;
         font-size: 48px;
-        left: 120px;
+        left: 190px;
         margin-bottom: 41px;
         margin-top: 0px;
         max-width: 800px;
@@ -898,7 +908,7 @@ input#confirm {
         font-size: 26px;
         font-weight: 400;
         height: 80px;
-        left: 120px;
+        left: 190px;
         margin-bottom: 57px;
         margin-top: 20px;
         width: 800px;
@@ -932,16 +942,36 @@ input#confirm {
         padding-right: 16px;
         padding-top: 15px;
         position: relative;
-        left: 45px;
+        left: 60px;
         right: 0px;
     }
 
     input {
         height: 70px;
-        width: 650px;
+        width: 300px;
+        left: 62px;
         margin-bottom: 15px;
         margin-top: 12px;
         margin-right: 0px;
+        display: block;
+    }
+
+    input#alias {
+        position: relative;
+        left: 32px;
+        width: 500px;
+    }
+
+    input#real-name {
+        position: relative;
+        left: 32px;
+        width: 500px;
+    }
+
+    input#email {
+        position: relative;
+        left: 32px;
+        width: 500px;
     }
 
     .character {
@@ -976,10 +1006,24 @@ input#confirm {
         position: relative;
     }
 
+    fieldset label {
+        bottom: 8px;
+        position: relative;
+        bottom: 40px;
+        left: 37px;
+    }
+
+    fieldset span {
+        display: block;
+    }
+
+    fieldset+fieldset {
+        margin-top: 34px;
+    }
+
     .category {
         display: inline-block;
-        height: 330px;
-        width: 271px;
+        width: 300px;
         position: relative;
         left: 32px;
 
@@ -987,17 +1031,17 @@ input#confirm {
 
     .gender {
         display: inline-block;
-        height: 330px;
-        width: 271px;
+        width: 350px;
         position: relative;
-        bottom: 435px;
-        left: 350px;
+        bottom: 565px;
+        left: 400px;
     }
 
     textarea#selfdescribe {
         height: 80px;
         margin-bottom: 40px;
-        width: 260px;
+        width: 300px;
+        bottom: 20px;
     }
 
     .abilities {
@@ -1016,7 +1060,7 @@ input#confirm {
     }
 
     .rate {
-        bottom: 605px;
+        bottom: 580px;
         color: #eaecf0;
         font-size: 22px;
         margin-bottom: 10px;
@@ -1027,29 +1071,36 @@ input#confirm {
 
     textarea#powers {
         height: 175px;
-        width: 580px;
-        position: relative;
-        bottom: 380px;
-        left: 32px;
-        right: 10px;
+        width: 500px;
+        /*position: relative;*/
+        /* bottom: 300px;*/
+    }
+
+    .svg {
+        display: inline-block;
+        height: 400px;
+        /*left: 40px;*/
+        width: 200px;
+        padding: 0px;
+        /*position: absolute;*/
     }
 
     .strength {
-        bottom: 150px;
-        height: 120px;
-        width: 120px;
+        /* bottom: 150px;*/
+        height: 100px;
+        width: 100px;
         align-content: center;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 37px;
         margin-bottom: 19px;
         padding: 0px;
-        position: relative;
-        left: 260px;
+        /* position: relative;*/
+        /* left: 260px;*/
     }
 
     .speed {
-        bottom: 50px;
+        /* bottom: 50px;*/
         border: 0px;
         height: 150px;
         margin-bottom: 19px;
@@ -1057,8 +1108,8 @@ input#confirm {
         margin-right: 0;
         margin-top: 40px;
         width: 150px;
-        position: relative;
-        left: 250px;
+        /*position: relative;*/
+        /*left: 250px;*/
     }
 
     select#speed {
@@ -1067,25 +1118,25 @@ input#confirm {
         appearance: none;
         font-size: 20px;
         height: 73px;
-        width: 240px;
-        position: relative;
-        left: 150px;
-        bottom: 50px;
+        width: 100px;
+        /*position: relative;*/
+        /*left: 150px;*/
+        /*bottom: 50px;*/
     }
 
     select#strength {
-        bottom: 140px;
+        /*bottom: 140px;*/
         -moz-appearance: none;
         -webkit-appearance: none;
         appearance: none;
         display: block;
         font-size: 20px;
         height: 73px;
-        left: 200px;
-        right: 44px;
+        /*left: 100px;*/
+        /*right: 44px;*/
         width: 240px;
         text-align: center;
-        position: relative;
+        /*position: relative;*/
     }
 
     .intelligence {
@@ -1098,9 +1149,9 @@ input#confirm {
         margin-top: 40px;
         width: 150px;
         padding: 0;
-        position: relative;
-        left: 150px;
-        right: 20px;
+        /*position: relative;*/
+        /*left: 150px;*/
+        /*right: 20px;*/
     }
 
     select#intelligence {
@@ -1110,12 +1161,12 @@ input#confirm {
         border: 5px;
         display: block;
         font-size: 20px;
-        left: 200px;
+        /*left: 200px;*/
         margin-bottom: 104px;
-        right: 44px;
+        /*right: 44px;*/
         height: 73px;
-        width: 240px;
-        position: relative;
+        width: 100px;
+        /*position: relative;*/
     }
 
     .button-reset {
