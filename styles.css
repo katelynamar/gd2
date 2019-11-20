@@ -120,21 +120,22 @@ select {
 }
 
 textarea {
-    height: 50px;
-    width: 275px;
+    /*height: 50px;*/
+    /*width: 275px;*/
 
 }
 
 fieldset {
     border: 0;
     padding: 0px;
+    /*vertical-align: top;*/
 }
 
 fieldset label {
     bottom: 8px;
     position: relative;
-    bottom: 20px;
-    left: 7px;
+    bottom: 50px;
+    left: 37px;
 }
 
 fieldset span {
@@ -240,13 +241,14 @@ div {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 15px;
-    position: relative;
-    right: 10px;
+    /*position: relative;*/
+    /*right: 10px;*/
 }
 
 label {
     font-size: 22px;
     letter-spacing: 1px;
+    display: block;
 }
 
 input {
@@ -311,21 +313,26 @@ p {
 .svg {
     background-color: transparent;
     display: inline-block;
-    right: 45px;
-    padding-bottom: 40px;
+    left: 60px;
+    margin: 0;
+    margin-left: 75px;
+    padding: 0;
+    width: 70%;
+    /*right: 45px;*/
+    /*padding-bottom: 40px;*/
 }
 
 .strength {
-    height: 110px;
+    height: 100px;
     width: 111px;
-    align-content: center;
+    /*align-content: center;*/
     margin-bottom: 19px;
     margin-left: 0px;
-    margin-top: 37px;
-    margin-right: 0px;
+    /*margin-top: 37px;*/
+    /*margin-right: 0px;*/
     padding: 0px;
-    position: relative;
-    left: 85px;
+    /*position: relative;*/
+    /*left: 85px;*/
 }
 
 .speed {
@@ -336,21 +343,21 @@ p {
     margin-top: 40px;
     width: 99px;
     padding: 0;
-    position: relative;
-    left: 90px;
+    /*position: relative;*/
+    /*left: 90px;*/
 }
 
 .intelligence {
     border: 0px;
     height: 110px;
-    min-width: auto;
+    /*min-width: auto;*/
     margin-left: 0;
     margin-right: 0;
     margin-top: 40px;
     width: 110px;
-    position: relative;
+    /*position: relative;*/
     padding: 0;
-    left: 84px;
+    /*left: 84px;*/
 }
 
 select#strength {
@@ -360,9 +367,9 @@ select#strength {
     display: block;
     font-size: 20px;
     height: 73px;
-    left: 30px;
-    right: 44px;
-    width: 240px;
+    /*left: 30px;*/
+    /*right: 44px;*/
+    width: 70%;
     text-align: center;
     position: relative;
 }
@@ -374,7 +381,7 @@ select#speed {
     appearance: none;
     font-size: 20px;
     height: 73px;
-    width: 240px;
+    width: 70%;
 }
 
 select#intelligence {
@@ -382,30 +389,39 @@ select#intelligence {
     -webkit-appearance: none;
     appearance: none;
     border: 5px;
-    display: block;
+    /*display: block;*/
     font-size: 20px;
-    left: 30px;
+    /*left: 30px;*/
     margin-bottom: 104px;
-    right: 44px;
+    /*right: 44px;*/
     height: 73px;
-    width: 240px;
-    position: relative;
+    width: 70%;
+    /*position: relative;*/
 }
 
 
 input#confirm {
+    left: 20px;
     margin-bottom: 0px;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
     margin-top: 48px;
     position: relative;
 }
 
 .confirm {
     border-top: 4px solid #163346;
-    left: 30px;
-    width: 250px;
-    position: relative;
+    display: inline-block;
+    /*left: 60px;*/
+    width: 230px;
+    /*position: relative;*/
 }
+
+.check {
+    bottom: 40px;
+    position: relative;
+    left: 60px
+}
+
 
 @media (min-width: 520px) {
     .logo {
@@ -457,9 +473,9 @@ input#confirm {
         padding-left: 16px;
         padding-right: 16px;
         padding-top: 15px;
-        position: relative;
-        left: 12px;
-        right: 0px;
+        /*position: relative;*/
+        /*left: 12px;*/
+        /*right: 0px;*/
     }
 
     input {
@@ -479,12 +495,13 @@ input#confirm {
 
     textarea#selfdescribe {
         margin-bottom: 40px;
+        height: 60px;
         width: 450px;
     }
 
     textarea#powers {
-        height: 175px;
-        width: 450px;
+        /*height: 175px;*/
+        /*width: 450px;*/
     }
 
     .strength {
@@ -496,8 +513,8 @@ input#confirm {
         margin-top: 37px;
         margin-bottom: 19px;
         padding: 0px;
-        position: relative;
-        left: 140px;
+        /*position: relative;*/
+        /*left: 140px;*/
     }
 
     .speed {
@@ -508,8 +525,8 @@ input#confirm {
         margin-right: 0;
         margin-top: 40px;
         width: 150px;
-        position: relative;
-        left: 120px;
+        /*position: relative;*/
+        /*left: 120px;*/
     }
 
     select#speed {
@@ -525,29 +542,28 @@ input#confirm {
         -moz-appearance: none;
         -webkit-appearance: none;
         appearance: none;
-        display: block;
         font-size: 20px;
         height: 73px;
-        left: 100px;
-        right: 44px;
+        /*left: 100px;*/
+        /*right: 44px;*/
         width: 240px;
         text-align: center;
-        position: relative;
+        /*position: relative;*/
     }
 
     .intelligence {
-        border: 0px;
-        height: 150px;
+        /*border: 0px;*/
+        /*height: 150px;*/
         min-width: auto;
         margin-bottom: 48px;
-        margin-left: 100px;
-        margin-right: 90px;
-        margin-top: 40px;
-        width: 150px;
-        padding: 0;
-        position: relative;
-        left: 30px;
-        right: 20px;
+        /*margin-left: 100px;*/
+        /*margin-right: 90px;*/
+        /*margin-top: 40px;*/
+        /*width: 150px;*/
+        /*padding: 0;*/
+        /*position: relative;*/
+        /*left: 30px;*/
+        /*right: 20px;*/
     }
 
     select#intelligence {
@@ -555,14 +571,22 @@ input#confirm {
         -webkit-appearance: none;
         appearance: none;
         border: 5px;
-        display: block;
+        /*display: block;*/
         font-size: 20px;
-        left: 100px;
+        /*left: 100px;*/
         margin-bottom: 104px;
-        right: 44px;
+        /*right: 44px;*/
         height: 73px;
         width: 240px;
-        position: relative;
+        /*position: relative;*/
+    }
+
+    .confirm {
+        border-top: 4px solid #163346;
+        /*display: inline-block;*/
+        left: 60px;
+        width: 350px;
+        /*position: relative;*/
     }
 
     .button-reset {
@@ -648,18 +672,19 @@ input#confirm {
         width: 680px;
         height: auto;
         margin: auto;
+        margin-left: 50px;
         padding-bottom: 80px;
         padding-left: 16px;
         padding-right: 16px;
         padding-top: 15px;
-        position: relative;
-        left: 45px;
-        right: 0px;
+        /*position: relative;*/
+        /*left: 45px;*/
+        /*right: 0px;*/
     }
 
     input {
         height: 70px;
-        width: 650px;
+        width: 550px;
         margin-bottom: 15px;
         margin-top: 12px;
         margin-right: 0px;
@@ -682,10 +707,10 @@ input#confirm {
 
     label {
         font-size: 22px;
-        left: 32px;
-        left: 32px;
+        /*left: 32px;*/
+        /*left: 32px;*/
         letter-spacing: 1px;
-        position: relative;
+        /*position: relative;*/
     }
 
     input#age {
@@ -697,22 +722,28 @@ input#confirm {
         position: relative;
     }
 
+    fieldset {
+        border: 0;
+        padding: 0px;
+        vertical-align: top;
+    }
+
     .category {
         display: inline-block;
-        height: 330px;
-        width: 271px;
-        position: relative;
-        left: 32px;
+        /*height: 330px;*/
+        width: 300px;
+        /*position: relative;*/
+        /*left: 32px;*/
 
     }
 
     .gender {
         display: inline-block;
-        height: 330px;
-        width: 271px;
-        position: relative;
-        bottom: 435px;
-        left: 350px;
+        /*height: 330px;*/
+        /*width: 48%;*/
+        /*position: relative;*/
+        /*bottom: 435px;*/
+        /*left: 350px;*/
     }
 
     textarea#selfdescribe {
@@ -722,64 +753,76 @@ input#confirm {
     }
 
     .abilities {
-        bottom: 375px;
+        /*bottom: 375px;*/
         border-bottom: 4px solid #163346;
         color: #eaecf0;
         font-family: 'Teko', sans-serif;
         font-size: 40px;
         font-weight: 400px;
-        height: 35px;
+        /*height: 35px;*/
         letter-spacing: 1px;
-        left: 32px;
+        /*left: 32px;*/
         margin-bottom: 30px;
-        width: 235px;
-        position: relative;
+        /*width: 235px;*/
+        /*position: relative;*/
     }
 
     .rate {
-        bottom: 605px;
+        /*bottom: 605px;*/
         color: #eaecf0;
         font-size: 22px;
         margin-bottom: 10px;
+        margin-left: 32px;
         margin-top: 10px;
-        position: relative;
-        left: 32px;
+        /*position: relative;*/
+        /*left: 32px;*/
     }
 
     textarea#powers {
-        height: 175px;
+        /*height: 175px;*/
         width: 580px;
-        position: relative;
-        bottom: 380px;
-        left: 32px;
-        right: 10px;
+        /*position: relative;*/
+        /*bottom: 380px;*/
+        /*left: 32px;*/
+        /*right: 10px;*/
     }
 
+    /*
     .strength {
-        bottom: 150px;
+        bottom: 150px;*/
+    /*height: 120px;*/
+    /*width: 120px;*/
+    /*align-content: center;*/
+    /* margin-left: 0px;*/
+    /*margin-right: 0px;*/
+    /*margin-top: 37px;*/
+    /*margin-bottom: 19px;*/
+    /*padding: 0px;*/
+    /*position: relative;*/
+    /*left: 260px;
+    }
+    */
+
+    .strength {
         height: 120px;
-        width: 120px;
-        align-content: center;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 37px;
-        margin-bottom: 19px;
-        padding: 0px;
-        position: relative;
-        left: 260px;
+        width: 140px;
+        margin-bottom: 60px;
+        margin-left: 45px;
+        text-align: center;
     }
 
     .speed {
-        bottom: 50px;
+        /*bottom: 50px;*/
         border: 0px;
         height: 150px;
-        margin-bottom: 19px;
-        margin-left: 0;
+        margin-bottom: 40px;
+        margin-left: 45px;
         margin-right: 0;
         margin-top: 40px;
         width: 150px;
-        position: relative;
-        left: 250px;
+        text-align: center;
+        /*position: relative;*/
+        /*left: 250px;*/
     }
 
     select#speed {
@@ -789,39 +832,40 @@ input#confirm {
         font-size: 20px;
         height: 73px;
         width: 240px;
-        position: relative;
-        left: 150px;
-        bottom: 50px;
+        /*position: relative;*/
+        /*left: 150px;*/
+        /*bottom: 50px;*/
     }
 
     select#strength {
-        bottom: 140px;
+        /*bottom: 140px;*/
         -moz-appearance: none;
         -webkit-appearance: none;
         appearance: none;
         display: block;
         font-size: 20px;
         height: 73px;
-        left: 200px;
-        right: 44px;
+        /*left: 200px;*/
+        /*right: 44px;*/
         width: 240px;
         text-align: center;
-        position: relative;
+        /*position: relative;*/
     }
 
     .intelligence {
         border: 0px;
         height: 150px;
-        min-width: auto;
-        margin-bottom: 48px;
-        margin-left: 100px;
-        margin-right: 90px;
+        /* min-width: auto;*/
+        /*margin-bottom: 48px;*/
+        margin-left: 45px;
+        /*margin-right: 90px;*/
         margin-top: 40px;
         width: 150px;
         padding: 0;
-        position: relative;
-        left: 150px;
-        right: 20px;
+        text-align: center;
+        /*position: relative;*/
+        /*left: 150px;*/
+        /*right: 20px;*/
     }
 
     select#intelligence {
@@ -829,14 +873,25 @@ input#confirm {
         -webkit-appearance: none;
         appearance: none;
         border: 5px;
-        display: block;
+        /*display: block;*/
         font-size: 20px;
-        left: 200px;
-        margin-bottom: 104px;
-        right: 44px;
-        height: 73px;
-        width: 240px;
-        position: relative;
+        /*left: 200px;*/
+        /*margin-bottom: 104px;*/
+        /*right: 44px;*/
+        /*height: 73px;*/
+        /*width: 240px;*/
+        /*position: relative;*/
+    }
+
+    .svg {
+        background-color: transparent;
+        display: inline-block;
+        margin: 0;
+        margin-left: 200px;
+        padding: 0;
+        width: 70%;
+        /*right: 45px;*/
+        /*padding-bottom: 40px;*/
     }
 
     .button-reset {
@@ -847,7 +902,7 @@ input#confirm {
         font-family: 'Teko', sans-serif;
         font-size: 32px;
         font-weight: 700;
-        left: 100px;
+        left: 220px;
         right: 80px;
         height: 87px;
         margin-top: 45px;
@@ -870,7 +925,14 @@ input#confirm {
 
     .confirm {
         border-top: 4px solid #163346;
-        width: 600px;
+        width: 580px;
+    }
+
+    .check {
+        bottom: 35px;
+        position: relative;
+        width: 540px;
+        left: 70px;
     }
 
 }
@@ -880,7 +942,7 @@ input#confirm {
         background-color: transparent;
         height: 239px;
         width: 240px;
-        left: 340px;
+        left: 370px;
         margin: 0px;
         padding: 0;
         padding-bottom: 0;
@@ -893,7 +955,7 @@ input#confirm {
         color: black;
         font-family: 'Teko', sans-serif;
         font-size: 48px;
-        left: 190px;
+        left: 215px;
         margin-bottom: 41px;
         margin-top: 0px;
         max-width: 800px;
@@ -908,7 +970,7 @@ input#confirm {
         font-size: 26px;
         font-weight: 400;
         height: 80px;
-        left: 190px;
+        left: 215px;
         margin-bottom: 57px;
         margin-top: 20px;
         width: 800px;
@@ -935,15 +997,16 @@ input#confirm {
         background-color: #1e2019;
         color: #eaecf0;
         width: 780px;
-        height: auto;
+        height: 80%;
         margin: auto;
+        margin-left: 70px;
         padding-bottom: 80px;
         padding-left: 16px;
         padding-right: 16px;
         padding-top: 15px;
-        position: relative;
-        left: 60px;
-        right: 0px;
+        /*position: relative;*/
+        /*left: 60px;*/
+        /*right: 0px;*/
     }
 
     input {
@@ -991,10 +1054,11 @@ input#confirm {
 
     label {
         font-size: 22px;
-        left: 32px;
-        left: 32px;
+        /*left: 32px;*/
+        /*left: 32px;*/
+        margin-left: 32px;
         letter-spacing: 1px;
-        position: relative;
+        /*position: relative;*/
     }
 
     input#age {
@@ -1010,7 +1074,7 @@ input#confirm {
         bottom: 8px;
         position: relative;
         bottom: 40px;
-        left: 37px;
+        left: 7px;
     }
 
     fieldset span {
@@ -1018,23 +1082,32 @@ input#confirm {
     }
 
     fieldset+fieldset {
-        margin-top: 34px;
+        /*margin-top: 34px;*/
+    }
+
+    fieldset {
+        border: 0;
+        padding: 0px;
+        vertical-align: top;
     }
 
     .category {
         display: inline-block;
-        width: 300px;
-        position: relative;
-        left: 32px;
+        margin-left: 32px;
+        width: 45;
+        /*position: relative;*/
+        /*left: 32px;*/
 
     }
 
     .gender {
         display: inline-block;
+        margin-left: 32px;
+        margin-top: 0;
         width: 350px;
-        position: relative;
-        bottom: 565px;
-        left: 400px;
+        /*position: relative;*/
+        /*bottom: 565px;*/
+        /*left: 400px;*/
     }
 
     textarea#selfdescribe {
@@ -1045,66 +1118,71 @@ input#confirm {
     }
 
     .abilities {
-        bottom: 375px;
+        /*bottom: 375px;*/
         border-bottom: 4px solid #163346;
         color: #eaecf0;
         font-family: 'Teko', sans-serif;
         font-size: 40px;
         font-weight: 400px;
-        height: 35px;
+        /*height: 35px;*/
         letter-spacing: 1px;
-        left: 32px;
+        /*left: 32px;*/
+        margin-left: 32px;
         margin-bottom: 30px;
         width: 235px;
-        position: relative;
+        /*position: relative;*/
     }
 
     .rate {
-        bottom: 580px;
+        /*bottom: 580px;*/
         color: #eaecf0;
         font-size: 22px;
         margin-bottom: 10px;
+        margin-left: 32px;
         margin-top: 10px;
-        position: relative;
-        left: 32px;
+        /*position: relative;*/
+        /*left: 32px;*/
     }
 
     textarea#powers {
         height: 175px;
-        width: 500px;
+        margin-left: 32px;
+        width: 680px;
         /*position: relative;*/
         /* bottom: 300px;*/
     }
 
     .svg {
         display: inline-block;
-        height: 400px;
+        /*height: 400px;*/
         /*left: 40px;*/
+        margin: 20px;
         width: 200px;
-        padding: 0px;
+        padding: 0;
         /*position: absolute;*/
     }
 
     .strength {
         /* bottom: 150px;*/
-        height: 100px;
-        width: 100px;
+        height: 140px;
+        width: 140px;
         align-content: center;
-        margin-left: 0px;
+        margin-left: 40px;
         margin-right: 0px;
         margin-top: 37px;
-        margin-bottom: 19px;
+        margin-bottom: 40px;
         padding: 0px;
+        text-align: center;
         /* position: relative;*/
         /* left: 260px;*/
     }
 
     .speed {
-        /* bottom: 50px;*/
+        /*bottom: 50px;*/
         border: 0px;
         height: 150px;
-        margin-bottom: 19px;
-        margin-left: 0;
+        margin-bottom: 40px;
+        margin-left: 15px;
         margin-right: 0;
         margin-top: 40px;
         width: 150px;
@@ -1118,7 +1196,7 @@ input#confirm {
         appearance: none;
         font-size: 20px;
         height: 73px;
-        width: 100px;
+        width: 200px;
         /*position: relative;*/
         /*left: 150px;*/
         /*bottom: 50px;*/
@@ -1128,24 +1206,26 @@ input#confirm {
         /*bottom: 140px;*/
         -moz-appearance: none;
         -webkit-appearance: none;
-        appearance: none;
+        /*appearance: none;*/
         display: block;
         font-size: 20px;
         height: 73px;
         /*left: 100px;*/
         /*right: 44px;*/
-        width: 240px;
+        width: 200px;
         text-align: center;
         /*position: relative;*/
     }
 
     .intelligence {
         border: 0px;
+        display: inline-block;
         height: 150px;
-        min-width: auto;
-        margin-bottom: 48px;
-        margin-left: 100px;
-        margin-right: 90px;
+        /*min-width: auto;*/
+        /*margin-bottom: 48px;*/
+        /*margin-left: 100px;*/
+        /*margin-right: 90px;*/
+        margin-left: 15px;
         margin-top: 40px;
         width: 150px;
         padding: 0;
@@ -1159,13 +1239,13 @@ input#confirm {
         -webkit-appearance: none;
         appearance: none;
         border: 5px;
-        display: block;
+        display: inline-block;
         font-size: 20px;
         /*left: 200px;*/
         margin-bottom: 104px;
         /*right: 44px;*/
         height: 73px;
-        width: 100px;
+        width: 200px;
         /*position: relative;*/
     }
 
@@ -1177,7 +1257,7 @@ input#confirm {
         font-family: 'Teko', sans-serif;
         font-size: 32px;
         font-weight: 700;
-        left: 100px;
+        left: 250px;
         right: 80px;
         height: 87px;
         margin-top: 45px;
@@ -1200,7 +1280,706 @@ input#confirm {
 
     .confirm {
         border-top: 4px solid #163346;
-        width: 600px;
+        margin-left: 80px;
+        width: 540px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .logo {
+        background-color: transparent;
+        height: 239px;
+        width: 240px;
+        left: 390px;
+        margin: 0px;
+        padding: 0;
+        padding-bottom: 0;
+        position: relative;
+        right: 80px;
+        top: 80px;
+    }
+
+    h1 {
+        color: black;
+        font-family: 'Teko', sans-serif;
+        font-size: 48px;
+        left: 250px;
+        margin-bottom: 41px;
+        margin-top: 0px;
+        max-width: 800px;
+        text-align: center;
+        position: relative;
+        top: 100px;
+    }
+
+    h2 {
+        color: #163346;
+        font-family: 'Teko', sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        height: 80px;
+        left: 250px;
+        margin-bottom: 57px;
+        margin-top: 20px;
+        width: 800px;
+        text-align: center;
+        position: relative;
+        top: 60px;
+    }
+
+    h3 {
+        border-bottom: 4px solid #163346;
+        display: block;
+        font-family: 'Teko', sans-serif;
+        font-size: 40px;
+        height: 50px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        left: 32px;
+        letter-spacing: 1px;
+        width: 140px;
+        position: relative;
+    }
+
+    div {
+        background-color: #1e2019;
+        color: #eaecf0;
+        width: 880px;
+        height: 80%;
+        margin: auto;
+        margin-left: 70px;
+        padding-bottom: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 15px;
+        /*position: relative;*/
+        /*left: 60px;*/
+        /*right: 0px;*/
+    }
+
+    input {
+        height: 70px;
+        width: 300px;
+        left: 62px;
+        margin-bottom: 15px;
+        margin-top: 12px;
+        margin-right: 0px;
+        display: block;
+    }
+
+    input#alias {
+        position: relative;
+        left: 32px;
+        width: 500px;
+    }
+
+    input#real-name {
+        position: relative;
+        left: 32px;
+        width: 500px;
+    }
+
+    input#email {
+        position: relative;
+        left: 32px;
+        width: 500px;
+    }
+
+    .character {
+        border-bottom: 4px solid #163346;
+        color: #eaecf0;
+        font-family: 'Teko', sans-serif;
+        font-size: 40px;
+        font-weight: 300px;
+        letter-spacing: 1px;
+        left: 32px;
+        line-height: 40px;
+        margin-bottom: 25px;
+        margin-top: 50px;
+        width: 450px;
+        position: relative;
+    }
+
+    label {
+        font-size: 22px;
+        /*left: 32px;*/
+        /*left: 32px;*/
+        margin-left: 32px;
+        letter-spacing: 1px;
+        /*position: relative;*/
+    }
+
+    input#age {
+        width: 90px;
+        display: block;
+        left: 32px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    fieldset label {
+        bottom: 8px;
+        position: relative;
+        bottom: 40px;
+        left: 7px;
+    }
+
+    fieldset span {
+        display: block;
+    }
+
+    fieldset+fieldset {
+        /*margin-top: 34px;*/
+    }
+
+    fieldset {
+        border: 0;
+        padding: 0px;
+        vertical-align: top;
+    }
+
+    .category {
+        display: inline-block;
+        margin-left: 32px;
+        width: 45;
+        /*position: relative;*/
+        /*left: 32px;*/
+
+    }
+
+    .gender {
+        display: inline-block;
+        margin-left: 32px;
+        margin-top: 0;
+        width: 350px;
+        /*position: relative;*/
+        /*bottom: 565px;*/
+        /*left: 400px;*/
+    }
+
+    textarea#selfdescribe {
+        height: 80px;
+        margin-bottom: 40px;
+        width: 435px;
+        bottom: 20px;
+    }
+
+    .abilities {
+        /*bottom: 375px;*/
+        border-bottom: 4px solid #163346;
+        color: #eaecf0;
+        font-family: 'Teko', sans-serif;
+        font-size: 40px;
+        font-weight: 400px;
+        /*height: 35px;*/
+        letter-spacing: 1px;
+        /*left: 32px;*/
+        margin-left: 32px;
+        margin-bottom: 30px;
+        width: 235px;
+        /*position: relative;*/
+    }
+
+    .rate {
+        /*bottom: 580px;*/
+        color: #eaecf0;
+        font-size: 22px;
+        margin-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 10px;
+        /*position: relative;*/
+        /*left: 32px;*/
+    }
+
+    textarea#powers {
+        height: 175px;
+        margin-left: 32px;
+        width: 800px;
+        /*position: relative;*/
+        /* bottom: 300px;*/
+    }
+
+    .svg {
+        display: inline-block;
+        /*height: 400px;*/
+        /*left: 40px;*/
+        margin: 40px;
+        width: 200px;
+        padding: 0;
+        /*position: absolute;*/
+    }
+
+    .strength {
+        /* bottom: 150px;*/
+        height: 140px;
+        width: 140px;
+        align-content: center;
+        margin-left: 40px;
+        margin-right: 0px;
+        margin-top: 37px;
+        margin-bottom: 40px;
+        padding: 0px;
+        text-align: center;
+        /* position: relative;*/
+        /* left: 260px;*/
+    }
+
+    .speed {
+        /*bottom: 50px;*/
+        border: 0px;
+        height: 150px;
+        margin-bottom: 40px;
+        margin-left: 15px;
+        margin-right: 0;
+        margin-top: 40px;
+        width: 150px;
+        /*position: relative;*/
+        /*left: 250px;*/
+    }
+
+    select#speed {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        font-size: 20px;
+        height: 73px;
+        width: 200px;
+        /*position: relative;*/
+        /*left: 150px;*/
+        /*bottom: 50px;*/
+    }
+
+    select#strength {
+        /*bottom: 140px;*/
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        /*appearance: none;*/
+        display: block;
+        font-size: 20px;
+        height: 73px;
+        /*left: 100px;*/
+        /*right: 44px;*/
+        width: 200px;
+        text-align: center;
+        /*position: relative;*/
+    }
+
+    .intelligence {
+        border: 0px;
+        display: inline-block;
+        height: 150px;
+        /*min-width: auto;*/
+        /*margin-bottom: 48px;*/
+        /*margin-left: 100px;*/
+        /*margin-right: 90px;*/
+        margin-left: 15px;
+        margin-top: 40px;
+        width: 150px;
+        padding: 0;
+        /*position: relative;*/
+        /*left: 150px;*/
+        /*right: 20px;*/
+    }
+
+    select#intelligence {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        border: 5px;
+        display: inline-block;
+        font-size: 20px;
+        /*left: 200px;*/
+        margin-bottom: 104px;
+        /*right: 44px;*/
+        height: 73px;
+        width: 200px;
+        /*position: relative;*/
+    }
+
+    .button-reset {
+        background: #6bf99c;
+        border: 6px;
+        cursor: pointer;
+        display: block;
+        font-family: 'Teko', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        left: 300px;
+        right: 80px;
+        height: 87px;
+        margin-top: 45px;
+        padding-bottom: 10px;
+        padding-left: 21px;
+        padding-right: 20px;
+        padding-top: 15px;
+        position: relative;
+        text-align: center;
+    }
+
+    input#confirm {
+        left: 32px;
+        margin-bottom: 0px;
+        margin-right: 10px;
+        margin-top: 48px;
+        position: relative;
+        top: 5px;
+    }
+
+    .confirm {
+        border-top: 4px solid #163346;
+        margin-left: 80px;
+        width: 540px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .logo {
+        background-color: transparent;
+        height: 239px;
+        width: 240px;
+        left: 590px;
+        margin: 0px;
+        padding: 0;
+        padding-bottom: 0;
+        position: relative;
+        right: 80px;
+        top: 80px;
+    }
+
+    h1 {
+        color: black;
+        font-family: 'Teko', sans-serif;
+        font-size: 48px;
+        left: 460px;
+        margin-bottom: 41px;
+        margin-top: 0px;
+        max-width: 800px;
+        text-align: center;
+        position: relative;
+        top: 100px;
+    }
+
+    h2 {
+        color: #163346;
+        font-family: 'Teko', sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        height: 80px;
+        left: 460px;
+        margin-bottom: 57px;
+        margin-top: 20px;
+        width: 800px;
+        text-align: center;
+        position: relative;
+        top: 60px;
+    }
+
+    h3 {
+        border-bottom: 4px solid #163346;
+        display: block;
+        font-family: 'Teko', sans-serif;
+        font-size: 40px;
+        height: 50px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        left: 32px;
+        letter-spacing: 1px;
+        width: 140px;
+        position: relative;
+    }
+
+    div {
+        background-color: #1e2019;
+        color: #eaecf0;
+        width: 1080px;
+        height: 80%;
+        margin: auto;
+        margin-left: 175px;
+        padding-bottom: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 15px;
+        /*position: relative;*/
+        /*left: 60px;*/
+        /*right: 0px;*/
+    }
+
+    input {
+        height: 70px;
+        width: 300px;
+        left: 62px;
+        margin-bottom: 15px;
+        margin-top: 12px;
+        margin-right: 0px;
+        display: block;
+    }
+
+    input#alias {
+        position: relative;
+        left: 32px;
+        width: 550px;
+    }
+
+    input#real-name {
+        position: relative;
+        left: 32px;
+        width: 550px;
+    }
+
+    input#email {
+        position: relative;
+        left: 32px;
+        width: 550px;
+    }
+
+    .character {
+        border-bottom: 4px solid #163346;
+        color: #eaecf0;
+        font-family: 'Teko', sans-serif;
+        font-size: 40px;
+        font-weight: 300px;
+        letter-spacing: 1px;
+        left: 32px;
+        line-height: 40px;
+        margin-bottom: 25px;
+        margin-top: 50px;
+        width: 450px;
+        position: relative;
+    }
+
+    label {
+        font-size: 22px;
+        /*left: 32px;*/
+        /*left: 32px;*/
+        margin-left: 32px;
+        letter-spacing: 1px;
+        /*position: relative;*/
+    }
+
+    input#age {
+        width: 90px;
+        display: block;
+        left: 32px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    fieldset label {
+        bottom: 8px;
+        position: relative;
+        bottom: 40px;
+        left: 7px;
+    }
+
+    fieldset span {
+        display: block;
+    }
+
+    fieldset+fieldset {
+        /*margin-top: 34px;*/
+    }
+
+    fieldset {
+        border: 0;
+        padding: 0px;
+        vertical-align: top;
+    }
+
+    .category {
+        display: inline-block;
+        margin-left: 32px;
+        width: 360px;
+        /*position: relative;*/
+        /*left: 32px;*/
+
+    }
+
+    .gender {
+        display: inline-block;
+        margin-left: 150px;
+        margin-top: 0;
+        width: 350px;
+        /*position: relative;*/
+        /*bottom: 565px;*/
+        /*left: 400px;*/
+    }
+
+    textarea#selfdescribe {
+        height: 80px;
+        margin-bottom: 40px;
+        width: 435px;
+        bottom: 20px;
+    }
+
+    .abilities {
+        /*bottom: 375px;*/
+        border-bottom: 4px solid #163346;
+        color: #eaecf0;
+        font-family: 'Teko', sans-serif;
+        font-size: 40px;
+        font-weight: 400px;
+        /*height: 35px;*/
+        letter-spacing: 1px;
+        /*left: 32px;*/
+        margin-left: 32px;
+        margin-bottom: 30px;
+        width: 235px;
+        /*position: relative;*/
+    }
+
+    .rate {
+        /*bottom: 580px;*/
+        color: #eaecf0;
+        font-size: 22px;
+        margin-bottom: 10px;
+        margin-left: 32px;
+        margin-top: 10px;
+        /*position: relative;*/
+        /*left: 32px;*/
+    }
+
+    textarea#powers {
+        height: 175px;
+        margin-left: 32px;
+        width: 960px;
+        /*position: relative;*/
+        /* bottom: 300px;*/
+    }
+
+    .svg {
+        display: inline-block;
+        /*height: 400px;*/
+        /*left: 40px;*/
+        margin: 70px;
+        width: 200px;
+        padding: 0;
+        /*position: absolute;*/
+    }
+
+    .strength {
+        /* bottom: 150px;*/
+        height: 140px;
+        width: 140px;
+        align-content: center;
+        margin-left: 40px;
+        margin-right: 0px;
+        margin-top: 37px;
+        margin-bottom: 40px;
+        padding: 0px;
+        text-align: center;
+        /* position: relative;*/
+        /* left: 260px;*/
+    }
+
+    .speed {
+        /*bottom: 50px;*/
+        border: 0px;
+        height: 150px;
+        margin-bottom: 40px;
+        margin-left: 15px;
+        margin-right: 0;
+        margin-top: 40px;
+        width: 150px;
+        /*position: relative;*/
+        /*left: 250px;*/
+    }
+
+    select#speed {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        font-size: 20px;
+        height: 73px;
+        width: 200px;
+        /*position: relative;*/
+        /*left: 150px;*/
+        /*bottom: 50px;*/
+    }
+
+    select#strength {
+        /*bottom: 140px;*/
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        /*appearance: none;*/
+        display: block;
+        font-size: 20px;
+        height: 73px;
+        /*left: 100px;*/
+        /*right: 44px;*/
+        width: 200px;
+        text-align: center;
+        /*position: relative;*/
+    }
+
+    .intelligence {
+        border: 0px;
+        display: inline-block;
+        height: 150px;
+        /*min-width: auto;*/
+        /*margin-bottom: 48px;*/
+        /*margin-left: 100px;*/
+        /*margin-right: 90px;*/
+        margin-left: 15px;
+        margin-top: 40px;
+        width: 150px;
+        padding: 0;
+        /*position: relative;*/
+        /*left: 150px;*/
+        /*right: 20px;*/
+    }
+
+    select#intelligence {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        border: 5px;
+        display: inline-block;
+        font-size: 20px;
+        /*left: 200px;*/
+        margin-bottom: 104px;
+        /*right: 44px;*/
+        height: 73px;
+        width: 200px;
+        /*position: relative;*/
+    }
+
+    .button-reset {
+        background: #6bf99c;
+        border: 6px;
+        cursor: pointer;
+        display: block;
+        font-family: 'Teko', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        left: 400px;
+        right: 80px;
+        height: 87px;
+        margin-top: 45px;
+        padding-bottom: 10px;
+        padding-left: 21px;
+        padding-right: 20px;
+        padding-top: 15px;
+        position: relative;
+        text-align: center;
+    }
+
+    input#confirm {
+        left: 32px;
+        margin-bottom: 0px;
+        margin-right: 10px;
+        margin-top: 48px;
+        position: relative;
+        top: 5px;
+    }
+
+    .confirm {
+        border-top: 4px solid #163346;
+        margin-left: 180px;
+        width: 540px;
     }
 
 }

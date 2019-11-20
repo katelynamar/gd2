@@ -44,8 +44,8 @@
                 <label for="age">Age</label>
                 <input id="age" type="number" placeholder="" required>
             </section>
-            <fieldset>
-                <section class="category">
+            <fieldset class="category">
+                <section>
                     <legend>Category</legend>
                     <p>Please select as many as apply to your origin and how you gained your powers.</p>
                     <span>
@@ -81,41 +81,40 @@
                 </section>
 
             </fieldset>
-            <section class="gender">
-                <fieldset>
-                    <legend>Gender</legend>
-                    <span>
-                        <input name="gender" id="woman" type="radio">
-                        <label for="woman">Woman</label>
-                    </span>
 
-                    <span>
-                        <input name="gender" id="man" type="radio">
-                        <label for="man">Man</label>
-                    </span>
+            <fieldset class="gender">
+                <legend>Gender</legend>
+                <span>
+                    <input name="gender" id="woman" type="radio">
+                    <label for="woman">Woman</label>
+                </span>
 
-                    <span>
-                        <input name="gender" id="nonbinary" type="radio">
-                        <label for="nonbinary">Non-Binary</label>
-                    </span>
+                <span>
+                    <input name="gender" id="man" type="radio">
+                    <label for="man">Man</label>
+                </span>
 
-                    <span>
-                        <input name="gender" id="genderqueer" type="radio">
-                        <label for="genderqueer">Genderqueer/Genderfluid</label>
-                    </span>
+                <span>
+                    <input name="gender" id="nonbinary" type="radio">
+                    <label for="nonbinary">Non-Binary</label>
+                </span>
 
-                    <span>
-                        <input name="gender" id="noanswer" type="radio">
-                        <label for="noanswer">Prefer not to answer</label>
-                    </span>
+                <span>
+                    <input name="gender" id="genderqueer" type="radio">
+                    <label for="genderqueer">Genderqueer/Genderfluid</label>
+                </span>
 
-                    <span>
-                        <input name="gender" id="selfdescribe" type="radio">
-                        <label for="selfdescribe">Prefer to self describe</label>
-                    </span>
-                    <textarea name="" id="selfdescribe"></textarea>
-                </fieldset>
-            </section>
+                <span>
+                    <input name="gender" id="noanswer" type="radio">
+                    <label for="noanswer">Prefer not to answer</label>
+                </span>
+
+                <span>
+                    <input name="gender" id="selfdescribe" type="radio">
+                    <label for="selfdescribe">Prefer to self describe</label>
+                </span>
+                <textarea name="" id="selfdescribe"></textarea>
+            </fieldset>
 
             <p class="abilities">Powers & Abilities</p>
 
@@ -176,8 +175,8 @@
                                 style="fill: rgb(255, 255, 255);" />
                         </g>
                     </svg>
+                    <label for="strength">Strength</label>
                 </div>
-                <label for="strength">Strength</label>
                 <select name="" id="strength">
                     <option value="Norm">Within Human Norms</option>
                     <option value="Beyond">Significantly Beyond Norms</option>
@@ -223,9 +222,8 @@
                                 style="stroke-width: 0.564843px; fill: rgb(255, 255, 255); stroke: rgb(255, 255, 255);" />
                         </g>
                     </svg>
+                    <label for="speed">Speed</label>
                 </div>
-
-                <label for="speed">Speed</label>
                 <select name="" id="speed">
                     <option value="Norm">Within Human Norms</option>
                     <option value="Beyond">Significantly Beyond Norms</option>
@@ -370,9 +368,8 @@
                             d="M120,46c0-1.1044998-0.8955002-2-2-2s-2,0.8955002-2,2v22c0,1.1044998,0.8955002,2,2,2s2-0.8955002,2-2V46z"
                             style="fill: rgb(255, 255, 255);" />
                     </svg>
+                    <label for="intelligence">Intelligence</label>
                 </div>
-
-                <label for="intelligence">Intelligence</label>
                 <select name="" id="intelligence">
                     <option value="Norm">Within Human Norms</option>
                     <option value="Beyond">Significantly Beyond Norms</option>
@@ -381,7 +378,8 @@
 
             <section class="confirm">
                 <input id="confirm" type="checkbox">
-                <label for="confirm">I confirm the above information represents my current details and is correct to
+                <label for="confirm" class="check">I confirm the above information represents my current details and is
+                    correct to
                     the
                     best of my knowledge.</label>
             </section>
