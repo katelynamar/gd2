@@ -2,29 +2,50 @@
     padding: 100px 30px;
 } */
 
+:root {
+    --green-bg: #669933;
+    --text-color: #151e10;
+    --text-white: #eddcbc;
+    --background-grey: #222322;
+}
+
 body {
     background-color: #669933;
     font-family: 'Raleway', sans-serif;
-    max-width: 80%;
+    max-width: 375px;
 }
 
 ul {
     list-style: none;
     padding-left: 0;
     text-align: center;
+    font-size: 18px;
+    padding: 0px;
+    text-decoration: none;
 }
 
 li {
     display: inline-block;
 }
 
+li+li {
+    margin-left: 10px;
+}
+
+li a {
+    border-bottom: 1px solid #151e10;
+    color: #222322;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 section#main {
-    height: 600px;
+    height: 700px;
 }
 
 h1 {
-    border-bottom: 2px solid #151e10;
-    border-top: 2px solid #151e10;
+    border-bottom: 1px solid #151e10;
+    border-top: 1px solid #151e10;
     color: #151e10;
     font-family: 'Abril Fatface', sans-serif;
     font-size: 55px;
@@ -32,8 +53,9 @@ h1 {
     line-height: 75px;
     letter-spacing: 1px;
     margin-bottom: 0;
+    margin-left: 10px;
+    margin-top: 230px;
     position: relative;
-    top: 120px;
     width: 330px;
 }
 
@@ -42,8 +64,9 @@ h1 {
     font-size: 25px;
     font-weight: 500;
     line-height: 35px;
+    margin-left: 10px;
+    margin-top: 25px;
     position: relative;
-    top: 120px;
     width: 250px;
 }
 
@@ -51,14 +74,14 @@ section#about {
     background-color: #222322;
     color: #669933;
     height: 800px;
-    width: 380px;
-    position: relative;
-    right: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 375px;
 }
 
 h2 {
-    border-bottom: 2px solid #669933;
-    border-top: 2px solid #669933;
+    border-bottom: 1px solid #669933;
+    border-top: 1px solid #669933;
     font-family: 'Abril Fatface', sans-serif;
     font-size: 50px;
     font-weight: 100;
@@ -67,7 +90,7 @@ h2 {
     line-height: 70px;
     margin: 0;
     position: relative;
-    top: 190px;
+    top: 150px;
     width: 300px;
 }
 
@@ -82,7 +105,7 @@ h2 {
 }
 
 .speak {
-    border-bottom: 2px solid #151e10;
+    border-bottom: 1px solid #151e10;
     color: #222322;
     left: 0;
     margin-left: 25px;
@@ -94,24 +117,70 @@ h2 {
 img {
     border-radius: 60%;
     height: auto;
-    width: 50%;
+    margin-left: 45px;
+    width: 70%;
+}
+
+section#speakers {
+    margin-right: auto;
+    margin-left: auto;
+    width: 370px;
 }
 
 .speakers {
-    left: 30px;
+    font-weight: 500;
     line-height: 25px;
     margin-bottom: 80px;
-    margin-left: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
     margin-top: 100px;
     max-width: 375px;
     position: inline-block;
-    text-align: justify;
+    text-align: left;
 }
 
 .name {
     border-bottom: 1px solid #151e10;
     font-size: 25px;
-    font-weight: 600;
-    height: 35px;
+    font-weight: 700;
+    height: 70px;
     text-align: center;
+}
+
+section#schedule {
+    background-color: #222322;
+    color: #669933;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 375px;
+}
+
+.schedule {
+    border-top: 0;
+    margin-left: 10px;
+    position: relative;
+    top: 45px;
+}
+
+.info {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 95px;
+}
+
+.time {
+    border-bottom: 1px solid #669933;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.talk {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 10px;
 }
