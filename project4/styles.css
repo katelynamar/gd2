@@ -1,0 +1,1015 @@
+/*section {
+    padding: 100px 30px;
+} */
+
+:root {
+    --green-bg: #669933;
+    --text-color: #151e10;
+    --text-white: #eddcbc;
+    --background-grey: #222322;
+}
+
+body {
+    background-color: var(--green-bg);
+    font-family: 'Raleway', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    /*max-width: 375px;*/
+}
+
+ul {
+    align-content: center;
+    list-style: none;
+    margin-left: 12px;
+    padding-left: 0;
+    text-align: center;
+    font-size: 18px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+li a:hover {
+    border-bottom: 1px solid var(--text-white);
+    color: var(--text-white);
+    font-weight: 400px;
+}
+
+li {
+    display: inline-block;
+}
+
+li+li {
+    margin-left: 10px;
+}
+
+li a {
+    border-bottom: 1px solid var(--text-color);
+    color: var(--text-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+section#main {
+    height: 700px;
+}
+
+h1 {
+    border-bottom: 1px solid var(--text-color);
+    border-top: 1px solid var(--text-color);
+    color: #151e10;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 55px;
+    font-weight: 100;
+    line-height: 75px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    margin-left: 25px;
+    margin-top: 230px;
+    position: relative;
+    width: 330px;
+}
+
+.dates {
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-left: 25px;
+    margin-top: 25px;
+    position: relative;
+    width: 250px;
+}
+
+section#about {
+    background-color: var(--background-grey);
+    color: var(--green-bg);
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    /*width: 375px;*/
+    max-width: 100%;
+}
+
+h2 {
+    border-bottom: 1px solid var(--green-bg);
+    border-top: 1px solid var(--green-bg);
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    left: 25px;
+    letter-spacing: 1px;
+    line-height: 70px;
+    margin: 0;
+    position: relative;
+    top: 150px;
+    width: 300px;
+}
+
+.about {
+    font-size: 20px;
+    font-weight: 500;
+    left: 30px;
+    line-height: 30px;
+    position: relative;
+    top: 210px;
+    width: 300px;
+}
+
+.speak {
+    border-bottom: 1px solid var(--text-color);
+    color: var(--text-color);
+    left: 0;
+    margin-left: 25px;
+    top: 0;
+    padding-top: 45px;
+    position: relative;
+}
+
+img {
+    border-radius: 60%;
+    height: auto;
+    margin-left: 45px;
+    width: 70%;
+}
+
+section#speakers {
+    margin-right: auto;
+    margin-left: auto;
+    width: 370px;
+}
+
+.speakers {
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 80px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 100px;
+    max-width: 375px;
+    position: inline-block;
+    text-align: left;
+}
+
+.name {
+    border-bottom: 1px solid var(--text-color);
+    font-size: 25px;
+    font-weight: 700;
+    height: 70px;
+    text-align: center;
+}
+
+section#schedule {
+    background-color: var(--background-grey);
+    color: var(--green-bg);
+    height: 800px;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    /*width: 375px;*/
+    max-width: 100%;
+}
+
+.schedule {
+    border-top: 0;
+    margin-left: 10px;
+    position: relative;
+    top: 45px;
+}
+
+.info {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 95px;
+}
+
+.time {
+    border-bottom: 1px solid var(--green-bg);
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.talk {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+section#tickets {
+    background-color: var(--background-grey);
+    height: 200px;
+    /*width: 375px;*/
+    max-width: 100%;
+}
+
+.ticks {
+    border: 3px solid var(--green-bg);
+    border-radius: 6px;
+    color: var(--green-bg);
+    left: 0;
+    margin-left: 35px;
+    text-align: center;
+    position: relative;
+    right: 0;
+    top: 50px;
+}
+
+.ticks:hover {
+    border: 3px solid var(--text-white);
+    color: var(--text-white);
+}
+
+footer {
+    background-color: var(--green-bg);
+    display: inline-block;
+    height: 50px;
+    margin-top: 20px;
+    width: 375px;
+}
+
+.social {
+    display: inline-block;
+    margin: 0;
+    width: 100px;
+}
+
+.icon {
+    color: var(--background-grey);
+    height: 40px;
+    padding-left: 10px;
+    width: 40px;
+}
+
+.icon:hover {
+    color: var(--text-white);
+}
+
+@media (min-width: 520px) {
+    body {
+        background-color: var(--green-bg);
+        font-family: 'Raleway', sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        /*max-width: 375px;*/
+    }
+
+    ul {
+        align-content: center;
+        list-style: none;
+        margin-left: 12px;
+        padding-left: 0;
+        text-align: center;
+        font-size: 18px;
+        padding: 0px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        border-bottom: 1px solid var(--text-white);
+        color: var(--text-white);
+        font-weight: 400px;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    li+li {
+        margin-left: 10px;
+    }
+
+    li a {
+        border-bottom: 1px solid var(--text-color);
+        color: var(--text-color);
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    section#main {
+        height: 700px;
+    }
+
+    h1 {
+        border-bottom: 1px solid var(--text-color);
+        border-top: 1px solid var(--text-color);
+        color: #151e10;
+        font-family: 'Abril Fatface', sans-serif;
+        font-size: 55px;
+        font-weight: 100;
+        line-height: 75px;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        margin-left: 35px;
+        margin-top: 230px;
+        position: relative;
+        width: 330px;
+    }
+
+    .dates {
+        color: var(--text-color);
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 35px;
+        margin-left: 35px;
+        margin-top: 25px;
+        position: relative;
+        width: 250px;
+    }
+
+    section#about {
+        background-color: var(--background-grey);
+        color: var(--green-bg);
+        height: 800px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    h2 {
+        border-bottom: 1px solid var(--green-bg);
+        border-top: 1px solid var(--green-bg);
+        font-family: 'Abril Fatface', sans-serif;
+        font-size: 50px;
+        font-weight: 100;
+        left: 25px;
+        letter-spacing: 1px;
+        line-height: 70px;
+        margin: 0;
+        position: relative;
+        top: 150px;
+        width: 300px;
+    }
+
+    .design {
+        margin-left: 25px;
+    }
+
+    .about {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-left: 25px;
+        position: relative;
+        top: 210px;
+        width: 400px;
+    }
+
+    .speak {
+        border-bottom: 1px solid var(--text-color);
+        color: var(--text-color);
+        left: 0;
+        margin-left: 35px;
+        top: 0;
+        padding-top: 45px;
+        position: relative;
+    }
+
+    img {
+        border-radius: 60%;
+        height: auto;
+        margin-left: 45px;
+        width: 70%;
+    }
+
+    section#speakers {
+        margin-right: auto;
+        margin-left: auto;
+        width: 450px;
+    }
+
+    .speakers {
+        font-weight: 500;
+        line-height: 25px;
+        margin-bottom: 80px;
+        margin-left: 55px;
+        margin-right: 35px;
+        margin-top: 100px;
+        max-width: 450px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .name {
+        border-bottom: 1px solid var(--text-color);
+        font-size: 25px;
+        font-weight: 700;
+        height: 70px;
+        text-align: center;
+    }
+
+    section#schedule {
+        background-color: var(--background-grey);
+        color: var(--green-bg);
+        height: 800px;
+        /*margin-right: auto;*/
+        /*margin-left: auto;*/
+        /*width: 520px;*/
+        max-width: 100%;
+    }
+
+    .schedule {
+        border-top: 0;
+        margin-left: 10px;
+        position: relative;
+        top: 45px;
+    }
+
+    .info {
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 95px;
+    }
+
+    .time {
+        border-bottom: 1px solid var(--green-bg);
+        font-family: 'Abril Fatface', sans-serif;
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .talk {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    section#tickets {
+        background-color: var(--background-grey);
+        height: 200px;
+        /*width: 520px;*/
+        max-width: 100%;
+    }
+
+    .ticks {
+        border: 3px solid var(--green-bg);
+        border-radius: 6px;
+        color: var(--green-bg);
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        position: relative;
+        right: 0;
+        top: 50px;
+    }
+
+    .ticks:hover {
+        border: 3px solid var(--text-white);
+        color: var(--text-white);
+    }
+
+    footer {
+        background-color: var(--green-bg);
+        display: inline-block;
+        height: 50px;
+        margin-top: 20px;
+        width: 375px;
+    }
+
+    .social {
+        display: inline-block;
+        margin: 0;
+        width: 100px;
+    }
+
+    .icon {
+        color: var(--background-grey);
+        height: 40px;
+        padding-left: 10px;
+        width: 40px;
+    }
+
+    .icon:hover {
+        color: var(--text-white);
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        background-color: var(--green-bg);
+        font-family: 'Raleway', sans-serif;
+        /*max-width: 375px;*/
+    }
+
+    ul {
+        align-content: center;
+        list-style: none;
+        margin-left: 12px;
+        padding-left: 0;
+        text-align: center;
+        font-size: 21px;
+        padding: 0px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        border-bottom: 1px solid var(--text-white);
+        color: var(--text-white);
+        font-weight: 400px;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    li+li {
+        margin-left: 20px;
+    }
+
+    li a {
+        border-bottom: 1px solid var(--text-color);
+        color: var(--text-color);
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    section#main {
+        height: 700px;
+    }
+
+    h1 {
+        border-bottom: 1px solid var(--text-color);
+        border-top: 1px solid var(--text-color);
+        color: #151e10;
+        font-family: 'Abril Fatface', sans-serif;
+        font-size: 95px;
+        font-weight: 100;
+        line-height: 100px;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        margin-left: 55px;
+        margin-top: 230px;
+        padding-bottom: 20px;
+        position: relative;
+        width: 530px;
+    }
+
+    .dates {
+        color: var(--text-color);
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 50px;
+        margin-left: 55px;
+        margin-top: 25px;
+        position: relative;
+        width: 350px;
+    }
+
+    section#about {
+        background-color: var(--background-grey);
+        color: var(--green-bg);
+        height: 800px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    h2 {
+        border-bottom: 1px solid var(--green-bg);
+        border-top: 1px solid var(--green-bg);
+        font-family: 'Abril Fatface', sans-serif;
+        font-size: 50px;
+        font-weight: 100;
+        left: 25px;
+        letter-spacing: 1px;
+        line-height: 70px;
+        margin: 0;
+        position: relative;
+        top: 150px;
+        width: 300px;
+    }
+
+    .design {
+        font-size: 70px;
+        line-height: 90px;
+        margin-left: 35px;
+        padding-bottom: 10px;
+        width: 500px;
+    }
+
+    .about {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 35px;
+        margin-left: 35px;
+        margin-top: 200px;
+        top: 0;
+        width: 500px;
+    }
+
+    .speak {
+        border-bottom: 1px solid var(--text-color);
+        color: var(--text-color);
+        font-size: 70px;
+        left: 0;
+        margin-left: 20px;
+        margin-right: 100px;
+        margin-top: 60px;
+        top: 0;
+        padding-bottom: 10px;
+        padding-top: 45px;
+    }
+
+    img {
+        border-radius: 60%;
+        height: auto;
+        margin-left: 135px;
+        width: 50%;
+    }
+
+    section#speakers {
+        height: 2700px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 700px;
+    }
+
+    .speakers {
+        font-weight: 500;
+        line-height: 25px;
+        margin-bottom: 80px;
+        margin-left: 55px;
+        margin-right: 35px;
+        margin-top: 135px;
+        max-width: 600px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .name {
+        border-bottom: 1px solid var(--text-color);
+        font-size: 25px;
+        font-weight: 700;
+        height: 70px;
+        text-align: center;
+    }
+
+    .bio {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    section#schedule {
+        background-color: var(--background-grey);
+        color: var(--green-bg);
+        height: 800px;
+        margin-right: auto;
+        margin-left: auto;
+        /*width: 800px;*/
+    }
+
+    .schedule {
+        border-top: 0;
+        margin-left: 55px;
+        position: relative;
+        top: 45px;
+    }
+
+    .info {
+        margin-left: 55px;
+        margin-right: 35px;
+        margin-top: 95px;
+    }
+
+    .time {
+        border-bottom: 1px solid var(--green-bg);
+        font-family: 'Abril Fatface', sans-serif;
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+        margin-top: 20px;
+        width: 400px;
+    }
+
+    .talk {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 30px;
+        margin-left: 25px;
+        margin-top: 10px;
+        width: 400px;
+    }
+
+    section#tickets {
+        background-color: var(--background-grey);
+        height: 200px;
+        /*width: 800px;*/
+    }
+
+    .ticks {
+        border: 3px solid var(--green-bg);
+        border-radius: 6px;
+        color: var(--green-bg);
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        position: relative;
+        right: 0;
+        top: 50px;
+    }
+
+    .ticks:hover {
+        border: 3px solid var(--text-white);
+        color: var(--text-white);
+    }
+
+    footer {
+        background-color: var(--green-bg);
+        display: inline-block;
+        height: 50px;
+        margin-left: auto;
+        margin-top: 20px;
+        margin-right: auto;
+        /*width: 375px;*/
+        max-width: 100%;
+    }
+
+    .social {
+        display: inline-block;
+        margin: 0;
+        width: 100px;
+    }
+
+    .icon {
+        color: var(--background-grey);
+        display: inline-block;
+        height: 40px;
+        padding-left: 10px;
+        width: 40px;
+    }
+
+    .icon:hover {
+        color: var(--text-white);
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: var(--green-bg);
+        font-family: 'Raleway', sans-serif;
+        /*max-width: 375px;*/
+    }
+
+    ul {
+        align-content: center;
+        list-style: none;
+        margin-left: 30px;
+        padding-left: 0;
+        text-align: center;
+        font-size: 21px;
+        padding: 0px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        border-bottom: 1px solid var(--text-white);
+        color: var(--text-white);
+        font-weight: 400px;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    li+li {
+        margin-left: 20px;
+    }
+
+    li a {
+        border-bottom: 1px solid var(--text-color);
+        color: var(--text-color);
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    section#main {
+        height: 700px;
+    }
+
+    h1 {
+        border-bottom: 1px solid var(--text-color);
+        border-top: 1px solid var(--text-color);
+        color: #151e10;
+        font-family: 'Abril Fatface', sans-serif;
+        font-size: 95px;
+        font-weight: 100;
+        line-height: 100px;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        margin-left: 55px;
+        margin-top: 230px;
+        padding-bottom: 20px;
+        position: relative;
+        width: 530px;
+    }
+
+    .dates {
+        color: var(--text-color);
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 50px;
+        margin-left: 55px;
+        margin-top: 25px;
+        position: relative;
+        width: 350px;
+    }
+
+    section#about {
+        background-color: var(--background-grey);
+        color: var(--green-bg);
+        height: 800px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    h2 {
+        border-bottom: 1px solid var(--green-bg);
+        border-top: 1px solid var(--green-bg);
+        font-family: 'Abril Fatface', sans-serif;
+        font-size: 50px;
+        font-weight: 100;
+        left: 25px;
+        letter-spacing: 1px;
+        line-height: 70px;
+        margin: 0;
+        position: relative;
+        top: 150px;
+        width: 300px;
+    }
+
+    .design {
+        font-size: 70px;
+        line-height: 90px;
+        margin-left: 35px;
+        padding-bottom: 10px;
+        width: 600px;
+    }
+
+    .about {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 35px;
+        margin-left: 35px;
+        margin-top: 200px;
+        top: 0;
+        width: 600px;
+    }
+
+    .speak {
+        border-bottom: 1px solid var(--text-color);
+        color: var(--text-color);
+        font-size: 70px;
+        left: 0;
+        margin-left: 20px;
+        margin-right: 100px;
+        margin-top: 60px;
+        top: 0;
+        padding-bottom: 10px;
+        padding-top: 45px;
+    }
+
+    img {
+        border-radius: 60%;
+        height: auto;
+        margin-left: 135px;
+        width: 50%;
+    }
+
+    section#speakers {
+        height: 2900px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 700px;
+    }
+
+    .speakers {
+        font-weight: 500;
+        line-height: 25px;
+        margin-bottom: 80px;
+        margin-left: 55px;
+        margin-right: 35px;
+        margin-top: 115px;
+        max-width: 600px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .name {
+        border-bottom: 1px solid var(--text-color);
+        font-size: 35px;
+        font-weight: 700;
+        height: 70px;
+        text-align: center;
+    }
+
+    .bio {
+        font-size: 21px;
+        line-height: 35px;
+        width: 635px;
+    }
+
+    section#schedule {
+        background-color: var(--background-grey);
+        color: var(--green-bg);
+        height: 800px;
+        margin-right: auto;
+        margin-left: auto;
+        /*width: 800px;*/
+    }
+
+    .schedule {
+        border-top: 0;
+        margin-left: 55px;
+        position: relative;
+        top: 45px;
+    }
+
+    .info {
+        margin-left: 55px;
+        margin-right: 35px;
+        margin-top: 95px;
+    }
+
+    .time {
+        border-bottom: 1px solid var(--green-bg);
+        font-family: 'Abril Fatface', sans-serif;
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+        margin-top: 20px;
+        width: 450px;
+    }
+
+    .talk {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 30px;
+        margin-left: 25px;
+        margin-top: 10px;
+        width: 450px;
+    }
+
+    section#tickets {
+        background-color: var(--background-grey);
+        height: 200px;
+        /*width: 800px;*/
+    }
+
+    .ticks {
+        border: 3px solid var(--green-bg);
+        border-radius: 6px;
+        color: var(--green-bg);
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        position: relative;
+        right: 0;
+        top: 50px;
+    }
+
+    .ticks:hover {
+        border: 3px solid var(--text-white);
+        color: var(--text-white);
+    }
+
+    footer {
+        background-color: var(--green-bg);
+        display: inline-block;
+        height: 50px;
+        margin-left: auto;
+        margin-top: 20px;
+        margin-right: auto;
+        /*width: 375px;*/
+        max-width: 100%;
+    }
+
+    .social {
+        display: inline-block;
+        margin: 0;
+        width: 100px;
+    }
+
+    .icon {
+        color: var(--background-grey);
+        display: inline-block;
+        height: 40px;
+        padding-left: 10px;
+        width: 40px;
+    }
+
+    .icon:hover {
+        color: var(--text-white);
+    }
+}
